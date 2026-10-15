@@ -8,7 +8,7 @@ sampling_frequency = 1000
 
 if __name__ == "__main__":
     try:
-        dac = mcp.MCP4725(3.3, 0x61, True)
+        dac = mcp.MCP4725(5.0, 0x61, True)
         start_time = time.time()
         while True:
             current_time = time.time() - start_time
