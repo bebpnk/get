@@ -11,4 +11,4 @@ def plot_voltage_vs_time(time, voltage, max_voltage,tau_time = None, tau_voltage
     plt.legend()
     plt.grid(True)
     plt.show()
-    plt.savefig('rc_plot.png', dpi = 300)
+    plt.savefig('rc_plot.png')
